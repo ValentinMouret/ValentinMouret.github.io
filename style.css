@@ -1,0 +1,69 @@
+html {
+    font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+}
+
+ul {
+    margin-top: 0;
+    padding-inline-start: 40px;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 13px;
+    width: inherit;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+#page {
+    display: flex;
+    flex-orientation: columns;
+    width: 1200px;
+
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 13px;
+    margin-top: 0;
+}
+
+div.row {
+    display: flex;
+}
+
+p.align-right {
+    text-align: right;
+}
+
+#nav {
+    text-align: right;
+    width: 200px;
+}
+
+#content {
+    padding-left: 1em;
+    width: 400px;
+}
+
+li {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+#nav>ul>li {
+    list-style-type: none;
+}
+
+.timeline {
+    width: 160px;
+}
+
+#work {
+    width: 800px;
+}
